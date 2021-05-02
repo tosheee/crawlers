@@ -7,9 +7,7 @@ from scraper.items import ScraperItem
 from scrapers import PagesScraper
 
 
-
 class BaseScraper(PagesScraper):
-    # name = 'scraper'
 
     def scrape_listing_pages(self, response):
         # import pdb; pdb.set_trace()
