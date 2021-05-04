@@ -22,7 +22,10 @@ parts
 src/*.egg-info
 lib
 lib64
+
+
 dbconfig.py
 passenger_wsgi.py
 scraper/tmp/*
 **/**/__pycache__/*
+scraper/scraper/__pycache__/*
